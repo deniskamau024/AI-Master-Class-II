@@ -17,8 +17,3 @@ if response.status_code == 200:
     print(f"Username:{username}")
     print(f"Email:{email}")
     print(f"City:{city}")
-
-
-else:
-    print("Invalid input:",response.status_code)
-
