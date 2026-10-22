@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 34.7617,
+    "lat": -0.1022
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 28.1,
+    "feels_like": 28.21,
+    "temp_min": 28.1,
+    "temp_max": 28.1,
+    "pressure": 1015,
+    "humidity": 46,
+    "sea_level": 1015,
+    "grnd_level": 890
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.68,
+    "deg": 163,
+    "gust": 1.61
+  },
+  "clouds": {
+    "all": 32
+  },
+  "dt": 1792652820,
+  "sys": {
+    "country": "KE",
+    "sunrise": 1792639311,
+    "sunset": 1792682926
+  },
+  "timezone": 10800,
+  "id": 191245,
+  "name": "Kisumu",
+  "cod": 200
+}
