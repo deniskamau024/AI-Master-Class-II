@@ -1,0 +1,22 @@
+* Opening
+You mentioned yor team pends too much time answering repetitive Whatsapp messages sbout price and stock.
+I can build an automated reply system that handles those common questions instantly. 24/7, 
+so your team focusses on questions that actually needs human.
+
+* Understanding
+Before building anything I would want to understand these three things: What platform you use for Whatsapp?
+Where your stock data currently lives, and whether you need a bot to just take orders or just provide information.
+
+* Approach
+I will set up an automated reply system, a simple admin interface to update prices and stock,
+and a 30-minute handover call so your team knows how to use and maintain it.
+
+* Price and Timeline
+KES 35,000. Ready in 14 working days from when you provide access to your Whatsapp Business account
+and product list.  50% upfront, 50% on delivery.
+
+* Call to action
+Happy to answer three questions above before you decide. What platform do you use for Whatsapp?
+
+
+
