@@ -28,3 +28,4 @@ Farmer: Denis
 litres : 1.0
 Price: KES 70.00/litre
 Total: KES 70.00
+'''
