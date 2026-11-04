@@ -1,5 +1,7 @@
 import pandas as pd
 
+# Merge two DataFrames
+
 orders = pd.DataFrame(
     {"order_id":[101,102,103],
     "customer_id": [1,2,1],
@@ -14,6 +16,7 @@ customers = pd.DataFrame({
 merged = pd.merge(orders, customers, on="customer_id", how="inner")
 print(merged)
 
+#understanding join types and creating  a pivot-table
 
 sales = pd.DataFrame({
     "month": ["Jan","Jan","Feb","Feb","Mar","Mar"],
@@ -29,3 +32,29 @@ pivot = pd.pivot_table(
     aggfunc="sum"
 )
 print("\n",pivot)
+
+print("=" * 54)
+
+# Using apply to run a custom function on every row.
+
+def classify_sale(amount):
+    if amount >= 100000:
+        return "Large"
+    elif amount >= 50000:
+        return "Medium"
+    else:
+        return "Small"
+    
+merged["sale_size"] = merged["amount_kes"].apply(classify_sale)
+print(merged[["name","amount_kes","sale_size"]])
+
+# Using groupby() with multiple aggregation functions at once
+
+summary =merged.groupby("county").agg(
+    total_revenue = ("amount_kes","sum"),
+    order_count= ("order_id","count"),
+    avg_order = ("amount_kes","mean"),
+    largest_order = ("amount_kes","max")
+    )
+print ("-" * 54)
+print(summary)
